@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="img/logo.png" alt="Logo de Alura">
+        <h1>Encriptador de texto</h1>
+    </header>
+
+    <section>
+        <textarea id="texto" placeholder="Ingresa tu texto aquí"></textarea>
+        <p><i class="bi bi-exclamation-circle-fill"></i> Solo letras minúsculas y sin acentos</p>
+        <div>
+            <button id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>
+        </div>
+    </section>
+
+    <section>
+        <div id="sin-texto">
+            <img src="img/Muñeco.png" alt="Muñeco">
+            <img src="img/sin-mensaje.png" alt="sin mensaje">
+        </div>
+        <textarea id="resultado" placeholder="Texto encriptado o desencriptado" disabled hidden></textarea>
+        <button id="copiar" hidden>Copiar</button>
+    </section>
+
+    <footer>
+        <p>&copy; Cristian Lahoz 2023 - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
